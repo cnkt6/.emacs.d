@@ -116,3 +116,6 @@
 
 ;; desable auto save
 (setq auto-save-default nil)
+
+;; package install
+(package-install-selected-packages)
