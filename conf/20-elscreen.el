@@ -1,4 +1,5 @@
 ;;; プレフィクスキーはC-z
+(require 'elscreen)
 (setq elscreen-prefix-key (kbd "C-z"))
 (elscreen-start)
 ;;; タブの先頭に[X]を表示しない
