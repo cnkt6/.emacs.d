@@ -1,0 +1,3 @@
+[submodule "public_repos/public_repos/popwin"]
+	path = public_repos/public_repos/popwin
+	url = https://github.com/emacsorphanage/popwin.git

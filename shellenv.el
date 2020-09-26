@@ -1,0 +1,1 @@
+(setenv "PATH" "/Users/IKDMSY/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/usr/local/go/bin:/opt/X11/bin:/opt/ImageMagick/bin:/usr/local/go/bin:/opt/go:/Users/IKDMSY/Work/go/bin:/Users/IKDMSY/bin:/usr/local/opt/texinfo/bin:/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/bin")

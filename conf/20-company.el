@@ -1,0 +1,6 @@
+(when (locate-library "company")
+  (global-company-mode 1)
+  (global-set-key (kbd "C-M-i") 'company-complete)
+  (define-key company-active-map (kbd "C-n") 'company-select-next) 
+  (define-key company-active-map (kbd "C-p") 'company-select-previous) 
+  (define-key company-active-map (kbd "<tab>") 'company-complete-selection))

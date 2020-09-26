@@ -1,0 +1,5 @@
+(when (require 'google-c-style nil t)
+  (add-hook 'c-mode-hook 'google-set-c-style)
+  (add-hook 'c++-mode-hook 'google-set-c-style)
+  (add-hook 'c-mode-hook 'google-make-newline-indent)
+  (add-hook 'c++-mode-hook 'google-make-newline-indent))

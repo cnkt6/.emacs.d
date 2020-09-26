@@ -1,0 +1,6 @@
+(define-key global-map [?¥] [?\\])
+(define-key global-map (kbd "C-c l") 'toggle-truncate-lines)
+(define-key global-map (kbd "C-m") 'newline-and-indent)
+(define-key global-map (kbd "C-t") 'other-window)
+(define-key global-map (kbd "M-o") 'occur-by-moccur)
+(define-key global-map (kbd "M-y") 'anything-show-kill-ring)
