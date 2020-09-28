@@ -23,7 +23,7 @@
  '(irony-additional-clang-options (quote ("-std=c++17")))
  '(package-selected-packages
    (quote
-    (cmake-mode js2-mode slime ggtags agtags yatex sage-shell-mode flycheck yasnippet tuareg racer quickrun qml-mode org-preview-html multiple-cursors lua-mode init-loader htmlize haskell-mode google-c-style flymake-rust flymake-cursor flycheck-irony elscreen company buffer-move atom-dark-theme ac-slime))))
+    (tide typescript-mode cmake-mode js2-mode slime ggtags agtags yatex sage-shell-mode flycheck yasnippet tuareg racer quickrun qml-mode org-preview-html multiple-cursors lua-mode init-loader htmlize haskell-mode google-c-style flymake-rust flymake-cursor flycheck-irony elscreen company buffer-move atom-dark-theme ac-slime))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
