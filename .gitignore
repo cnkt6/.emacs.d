@@ -6,6 +6,8 @@
 *.elc
 auto-save-list
 tramp
+elpy
+transient
 .\#*
 
 # Org-mode
