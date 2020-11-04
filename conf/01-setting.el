@@ -92,7 +92,11 @@
 ;;カレントウィンドウの透明度
 ;;(set-frame-parameter nil 'alpha 85)
 
-;;(set-default-font "VL Pゴシック")
+;; フォント設定
+(when (member "Ricty Diminished" (font-family-list))
+  (add-to-list 'default-frame-alist '(font . "Ricty Diminished"))
+  (setq default-frame-alist
+        '((font . "-*-Ricty Diminished-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1"))))
 
 ;;paren-mode : 対応する括弧を強調して表示する
 (setq show-paren-delay 0) ; 表示までの秒数。初期値は0.125
